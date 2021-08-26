@@ -2,3 +2,20 @@ html {
     scroll-behavior: smooth;
 }
 
+body::-webkit-scrollbar {
+    width: 8px;               
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #f1f0f0;       
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #059669;   
+    border-radius: 20px;     
+   
+  }
+
+  .project:hover {
+    transform: scale(1.1);
+  }
